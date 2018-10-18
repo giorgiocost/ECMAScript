@@ -4,7 +4,6 @@ const info = {
 }
 console.log('TCL: nome', info.nome);
 
-
 //desconstruindo
 let {nome} = info;
 console.log('TCL: nome', nome);
@@ -14,7 +13,6 @@ console.log('TCL: minhaIdade', minhaIdade);
 console.log('TCL: meuNome', meuNome);
 
 const numeros = [1,2,3,4];
-
 
 let {3:ultimo} = numeros;
 console.log('TCL: primeiro', ultimo);
